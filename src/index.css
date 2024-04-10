@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dropdown-wrapper{
+    display: grid;
+    max-height: 0;
+  }
+
+.dropdown-animation{
+    transition: max-height 400ms ease;
+  }
